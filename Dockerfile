@@ -14,7 +14,7 @@ COPY . .
 
 RUN apk add --no-cache git
 
-RUN yarn && yarn setup
+RUN yarn setup
 
 RUN grunt prod
 

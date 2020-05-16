@@ -4082,7 +4082,7 @@ grunt-update-submodules@0.4.1:
   resolved "https://registry.yarnpkg.com/grunt-update-submodules/-/grunt-update-submodules-0.4.1.tgz#46c485fe6413cc0bdd6988aa2803c4e7d997c366"
   integrity sha1-RsSF/mQTzAvdaYiqKAPE59mXw2Y=
 
-grunt@1.1.0:
+grunt@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/grunt/-/grunt-1.1.0.tgz#97dc6e6add901459774a988e4f454a12e24c9d3d"
   integrity sha512-+NGod0grmviZ7Nzdi9am7vuRS/h76PcWDsV635mEXF0PEQMUV6Kb+OjTdsVxbi0PZmfQOjCMKb3w8CVZcqsn1g==
