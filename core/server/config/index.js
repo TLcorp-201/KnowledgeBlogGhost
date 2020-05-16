@@ -31,7 +31,6 @@ _private.loadNconf = function loadNconf(options) {
         separator: '__',
         parseValues: true
     });
-
     nconf.file('custom-env', path.join(customConfigPath, 'config.' + env + '.json'));
     if (env !== 'testing') {
         nconf.file('local-env', path.join(customConfigPath, 'config.local.json'));

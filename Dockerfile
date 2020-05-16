@@ -1,5 +1,7 @@
 FROM node:10.19.0-alpine
 
+ENV NODE_ENV production
+
 RUN npm install -g pm2
 
 RUN yarn global add knex-migrator grunt-cli ember-cli bower
