@@ -4,7 +4,9 @@ ENV NODE_ENV production
 
 RUN npm install -g pm2
 
-RUN yarn global add knex-migrator grunt-cli ember-cli bower
+RUN npm install -g grunt-cli
+
+RUN yarn global add knex-migrator ember-cli bower
 
 WORKDIR /usr/src/app
 
