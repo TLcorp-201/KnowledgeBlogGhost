@@ -4,7 +4,7 @@ ENV NODE_ENV production
 
 RUN npm install -g pm2
 
-RUN npm install -g grunt-cli
+RUN npm install -g grunt-cli grunt
 
 RUN yarn global add knex-migrator ember-cli bower
 
